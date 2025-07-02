@@ -1,0 +1,19 @@
+let num1 = 231;
+let num2 = new Number(231);
+let num3 = new Number(231);
+console.log(num1==num2);
+console.log(num2==num3);
+console.log(num2);
+console.log(typeof num2);
+
+
+let num = 231.68;
+console.log(num.toFixed(1)); //here it do round off
+console.log(num.toFixed(3));
+console.log(num.toPrecision(4));
+console.log(num.toPrecision(2));
+console.log(num.toPrecision(5)); // precision
+
+console.log(num.toExponential(2));
+console.log(typeof num.toString());
+console.log(num.valueOf());
