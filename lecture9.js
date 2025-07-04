@@ -1,6 +1,0 @@
-let num = 231.68;
-console.log(num.toFixed(1));
-console.log(num.toPrecision(2));
-console.log(num.toExponential(3));
-console.log(typeof num.toString);
-console.log(num.valueOf());
